@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- settings -->
+	<threatBig>大型威胁</threatBig>
+	<deepDrillInfestation>深钻井虫灾</deepDrillInfestation>
+	<diseaseHuman>殖民者得病</diseaseHuman>
+	<diseaseAnimal>动物得病</diseaseAnimal>
+	<threatSmall>小型威胁</threatSmall>
+	<factionArrival>派系来访</factionArrival>
+	<orbitalVisitor>轨道商</orbitalVisitor>
+	<shipChunkDrop>飞船残骸坠落</shipChunkDrop>
+	<giveQuest>任务发布</giveQuest>
+	<allyAssistance>友军援助</allyAssistance>
+	<misc>其他</misc>
+	<generatedPotentiallyHostileMap>潜在敌对营地出现</generatedPotentiallyHostileMap>
+</LanguageData>

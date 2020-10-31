@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- settings -->
+	<threatBig>Major Threat</threatBig>
+	<deepDrillInfestation>Deep Drill Infestation</deepDrillInfestation>
+	<diseaseHuman>Human Disease</diseaseHuman>
+	<diseaseAnimal>Animal Disease</diseaseAnimal>
+	<threatSmall>Minor Threat</threatSmall>
+	<factionArrival>Faction Arrived</factionArrival>
+	<orbitalVisitor>Orbital Visitor</orbitalVisitor>
+	<shipChunkDrop>Ship Chunk Dropped</shipChunkDrop>
+	<giveQuest>Quest Given</giveQuest>
+	<allyAssistance>Ally Assistance</allyAssistance>
+	<misc>Misc</misc>
+	<generatedPotentiallyHostileMap>Potentially Hostile Map Generated</generatedPotentiallyHostileMap>
+</LanguageData>
