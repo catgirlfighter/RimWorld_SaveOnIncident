@@ -1,4 +1,10 @@
-﻿1.0.2
+﻿1.0.3
+- notification about map being generated appears to be exceptionally inconsistent,
+  it could be called on any stage of map generation, so often saves could happen 
+  before pawns actually entered generated map or map could have enemies not being hostile. 
+  This feature requires a (painfully excessive) rework, so I've disabled it for now.
+
+1.0.2
 - added Chinese Simplified translation;
 
 1.0.1
