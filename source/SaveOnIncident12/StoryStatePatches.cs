@@ -1,13 +1,15 @@
-﻿using HarmonyLib;
+﻿using System;
+using HarmonyLib;
 using RimWorld;
 using Verse;
+
 namespace SaveOnIncident
 {
     public static class StoryStatePatches
     {
         public static void DoSave()
-        {
-            Current.Game.autosaver.DoAutosave();
+        {      
+            LongEventHandler.QueueLongEvent(new Action(Current.Game.autosaver.DoAutosave), "Autosaving", false, null, true);
             Settings.FticksSinceSave.SetValue(Current.Game.autosaver, 0);
         }
 

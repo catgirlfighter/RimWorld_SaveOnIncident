@@ -1,4 +1,7 @@
-﻿1.0.3
+﻿1.0.4
+- added an "autosaving" popup;
+
+1.0.3
 - notification about map being generated appears to be exceptionally inconsistent,
   it could be called on any stage of map generation, so often saves could happen 
   before pawns actually entered generated map or map could have enemies not being hostile. 
