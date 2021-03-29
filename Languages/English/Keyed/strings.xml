@@ -13,4 +13,7 @@
 	<allyAssistance>Ally Assistance</allyAssistance>
 	<misc>Misc</misc>
 	<generatedPotentiallyHostileMap>Potentially Hostile Map Generated</generatedPotentiallyHostileMap>
+	<minimumTickNotice>Minimum interval between autosaves = {0} ticks</minimumTickNotice>
+	<saveAfterColonistDeath>Colonist Death</saveAfterColonistDeath>
+	<saveAfterColonyAnimalDeath>Other player-controlled pawn death</saveAfterColonyAnimalDeath>
 </LanguageData>

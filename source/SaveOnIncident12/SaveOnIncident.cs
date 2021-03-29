@@ -14,9 +14,6 @@ namespace SaveOnIncident
 
         public SaveOnIncident(ModContentPack content) : base(content)
         {
-            Settings.FticksSinceSave = AccessTools.Field(typeof(Autosaver), "ticksSinceSave");
-            if (Settings.FticksSinceSave == null) throw new Exception("Couldn't get a field Autosaver.ticksSinceSave");
-
             var harmony = new Harmony("net.avilmask.rimworld.mod.SaveOnIncident");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
             GetSettings<Settings>();

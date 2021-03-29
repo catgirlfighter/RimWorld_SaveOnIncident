@@ -1,4 +1,9 @@
-﻿1.0.4
+﻿1.0.5
+- added an option to save on map generation back;
+- added an option to save on death of player pawns;
+- aded minimum interval between saves of 1000 ticks;
+
+1.0.4
 - added an "autosaving" popup;
 
 1.0.3
