@@ -10,7 +10,7 @@ namespace SaveOnIncident.Patches
         {
             static void Postfix()
             {
-                if(Settings.generatedPotentiallyHostileMap) StoryStatePatches.DoSave();
+                if(Settings.generatedPotentiallyHostileMap) SaveOnIncident.SetupAutosave();
             }
         }
     }

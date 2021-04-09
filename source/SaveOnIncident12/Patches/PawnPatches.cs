@@ -12,9 +12,9 @@ namespace SaveOnIncident.Patches
         {
             if (__instance.Faction == Faction.OfPlayer)
                 if (__instance.RaceProps.Humanlike && Settings.saveAfterColonistDeath)
-                    StoryStatePatches.DoSave();
+                    SaveOnIncident.SetupAutosave();
                 else if (Settings.saveAfterColonyAnimalDeath)
-                    StoryStatePatches.DoSave();
+                    SaveOnIncident.SetupAutosave();
         }
     }
 }
