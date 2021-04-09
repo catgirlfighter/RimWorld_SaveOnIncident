@@ -1,5 +1,5 @@
 ﻿1.0.6
-- reworked how notifications to autosave are received. Before it used central notification mechanic for storyteller. New quest incidents don't notify the story tell about anything, i.e. work independently, that's why autosave didn't trigger from quest incidents. I've made so  now an autosave trigger is received right when an incident is trying to fire, so more or less mod can capture all of them;
+- reworked how notifications to autosave are received. Before it used central notification mechanic for storyteller. New quest incidents don't notify the storyteller about anything, i.e. work independently, that's why autosave didn't trigger from quest incidents. I've made so  now an autosave trigger is received right when an incident is trying to fire, so more or less mod can capture all of them;
 
 1.0.5
 - added an option to save on map generation back;
