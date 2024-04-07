@@ -16,4 +16,5 @@
 	<minimumTickNotice>Minimum interval between autosaves = {0} ticks</minimumTickNotice>
 	<saveAfterColonistDeath>Colonist Death</saveAfterColonistDeath>
 	<saveAfterColonyAnimalDeath>Other player-controlled pawn death</saveAfterColonyAnimalDeath>
+	<special>Special</special>
 </LanguageData>

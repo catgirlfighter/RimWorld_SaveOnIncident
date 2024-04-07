@@ -16,4 +16,5 @@
 	<minimumTickNotice>两次自动存档间至少相隔 {0} ticks</minimumTickNotice>
 	<saveAfterColonistDeath>殖民者身亡</saveAfterColonistDeath>
 	<saveAfterColonyAnimalDeath>其他的可控非殖民者身亡</saveAfterColonyAnimalDeath>
+	<special>Special</special>
 </LanguageData>
